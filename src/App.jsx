@@ -1,3 +1,6 @@
+import DiagnosisHistory from "./components/diagnosis-history";
+import DiagnosticList from "./components/diagnostic-list";
+import LabResult from "./components/lab-result";
 import Nav from "./components/nav";
 import PatientDetail from "./components/patient-detail";
 import PatientList from "./components/patient-list";
@@ -12,11 +15,13 @@ const Home = () => {
         <div className="w-80">
           <PatientList />
         </div>
-        <div className="flex-1">
-
+        <div className="flex-1 flex flex-col gap-8">
+          <DiagnosisHistory />
+          <DiagnosticList />
         </div>
-        <div className="w-80">
+        <div className="w-80 flex flex-col gap-8">
           <PatientDetail />
+          <LabResult />
         </div>
       </div>
     </div>

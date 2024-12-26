@@ -1,7 +1,7 @@
-import BirthIcon from "../../assets/images/BirthIcon.svg"
-import FemaleIcon from "../../assets/images/FemaleIcon.svg"
-import InsuranceIcon from "../../assets/images/InsuranceIcon.svg"
-import PhoneIcon from "../../assets/images/PhoneIcon.svg"
+import BirthIcon from "../../assets/images/icon/icon-birth.svg"
+import FemaleIcon from "../../assets/images/icon/icon-female.svg"
+import InsuranceIcon from "../../assets/images/icon/icon-insurance.svg"
+import PhoneIcon from "../../assets/images/icon/icon-phone.svg"
 
 const PatiendDetailInfo = ({cate, value}) => {
 

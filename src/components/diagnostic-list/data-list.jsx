@@ -27,15 +27,17 @@ const DiagnosticDataList = () => {
     return (
         <table>
             <thead className="">
-                <td>
-                    Problem/Diagnosis
-                </td>
-                <td>
-                    Description
-                </td>
-                <td>
-                    Status
-                </td>
+                <tr>
+                    <th>
+                        Problem/Diagnosis
+                    </th>
+                    <th>
+                        Description
+                    </th>
+                    <th>
+                        Status
+                    </th>
+                </tr>
             </thead>
             <tbody>
                 {

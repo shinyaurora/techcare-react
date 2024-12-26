@@ -1,5 +1,5 @@
 import PatiendDetailInfo from "./detail-info"
-import AvatarImage from "../../assets/images/Avatar.png"
+import AvatarImage from "../../assets/images/avatar/avatar-jessica-2x.png"
 
 const PatientDetail = () => {
 
